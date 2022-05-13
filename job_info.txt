@@ -1,0 +1,2 @@
+MODGRNLD.200207.monthly.v01.1.nc
+MODGRNLD.200207.monthly.v01.1.nc.xml

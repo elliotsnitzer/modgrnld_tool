@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#
+# rappture
+#
+#/usr/bin/invoke_app "$@" -t modgrnld \
+#                         -C rappture
+
+#
+# jupyter
+
+/usr/bin/invoke_app "$@" -t modgrnld \
+                         -C "start_jupyter -A -T @tool modgrnld.ipynb" \
+                         -u anaconda-6 \
+                         -r none
